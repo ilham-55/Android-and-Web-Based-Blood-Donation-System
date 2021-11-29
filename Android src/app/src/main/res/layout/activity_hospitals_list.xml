@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_four"
+
+    tools:context=".home.hospital_info.HospitalsListActivity">
+
+    <Button
+        android:id="@+id/button_search_hospitalinmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_category_hospital"
+        android:drawableLeft="@drawable/ic_searchloc"
+        android:paddingStart="35dp"
+        android:text="Search Nearby Hospitals in Map"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_search_hospitalinmap">
+
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_division_hospitalslist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_category_hospital"
+                android:text="Select Division"
+                android:textColor="#123" />
+
+            <Button
+                android:id="@+id/btn_blood_category_hospitalslist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_category_hospital"
+                android:text="Category"
+                android:textColor="#123" />
+
+            <Button
+                android:id="@+id/btn_submit_hospitalslist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_category_hospital"
+                android:text="SEARCH"
+                android:textColor="#123" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layout2"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_no_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipeToRefreshHospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ListView
+
+                    android:id="@+id/listView_hospitalslist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="5dp"
+                    android:divider="#fff"
+                    android:dividerHeight="3dp" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

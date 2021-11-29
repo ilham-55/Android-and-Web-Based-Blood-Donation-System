@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_category_hospital"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/list_icon"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_ambulance_list" />
+
+    <TextView
+        android:id="@+id/ambulance_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/list_icon"
+        android:paddingTop="10dp"
+        android:text="Name"
+
+        android:textAlignment="textStart"
+        android:textColor="#F44336"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/ambulance_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ambulance_name"
+        android:layout_alignStart="@id/ambulance_name"
+        android:layout_alignLeft="@id/ambulance_name"
+        android:layout_marginTop="2dp"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Address"
+        android:textAlignment="viewStart"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#123"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/ambulance_phones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ambulance_division"
+        android:layout_alignStart="@+id/ambulance_division"
+        android:layout_alignLeft="@+id/ambulance_division"
+        android:text="Phone "
+        android:textColor="#123" />
+
+
+</RelativeLayout>

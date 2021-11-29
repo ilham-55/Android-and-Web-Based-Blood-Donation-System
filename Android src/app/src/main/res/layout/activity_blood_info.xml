@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/blood_info_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_purple_gradient"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Blood Donation Tips 01"
+                android:textColor="#123"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="1. Who can donate?"
+                android:textColor="#F44336"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="First, know if you are even eligible for donation. The most basic requirements are that donors must be healthy, at least 17 years old in most states, and weigh at least 110 pounds. When you go to give blood, you will get a mini-physical of sorts, during which someone will check your pulse, blood pressure, hemoglobin level and temperature."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="2. Before donating, eat and drink this"
+                android:textColor="#F44336"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="If you are eligible and plan to donate blood, be sure to eat a healthy meal the night before (if you are donating first thing in the morning) or immediately before donating (if you are donating later in the day). Try to avoid fatty foods (like French fries or ice cream) since that will make your blood too fatty and difficult to test for infectious diseases. If this is the case, your blood won not be used for transfusion.
+Also, make sure to drink at least 16 ounces of fluid before you donate and wear clothing with sleeves that can easily be rolled up above the elbow."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="3. After donating, eat and drink this"
+                android:textColor="#F44336"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="When you're done, it's important to drink water again to replenish your system and to rest for a bit. Most blood donation centers will not allow you to get up right away anyway, so use the time to drink, drink, drink.
+
+For the rest of the day after you donate blood, make sure to eat well, including foods rich in iron, and drink plenty of fluids (but back off the alcohol).
+"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="4. Take it easy"
+                android:textColor="#F44336"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Be sure not to do strenuous activities, like rigorous exercise or heavy lifting (i.e., don't head to the gym or help your friend move boxes out of her old apartment) on the day you've given blood. If you start to feel faint or dizzy, stop what you're doing and rest until you feel better. If you still don't feel well after a day or start to get sick or develop a fever, seek medical attention.
+"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="5. How soon before you can donate again?"
+                android:textColor="#F44336"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="It takes eight weeks for the red cells in your blood to replenish themselves after donating blood, so you have to wait at least that long between donations. If you’re donating plasma, on the other hand (which is collected through a machine that separates your blood components to take only the plasma, and then returns the red blood cells to you), then you can donate more often.
+
+While we’re on the topic, there’s another important blood-related substance you can donate: bone marrow. Thousands of blood-cancer patients rely on a transfusion of bone marrow from a genetic match. You can easily join the bone marrow registry by swabbing the inside of your cheek with a kit you get online or at a donor drive. "
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/donate_bool_save_life" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_purple_gradient"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="10 Healthy Lifestyle Tips for Adults"
+                android:textColor="#123"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="1. Eat a variety of foods"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="For good health, we need more than 40 different nutrients, and no single food can supply them all. It is not about a single meal, it is about a balanced food choice over time that will make a difference!\nA high-fat lunch could be followed by a low-fat dinner.\nAfter a large meat portion at dinner, perhaps fish should be the next day’s choice?"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="2. Base your diet on plenty of foods rich in carbohydrates"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="About half the calories in our diet should come from foods rich in carbohydrates, such as cereals, rice, pasta, potatoes, and bread. It is a good idea to include at least one of these at every meal. Wholegrain foods, like wholegrain bread, pasta, and cereals, will increase our fibre intake."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="3. Replace saturated with unsaturated fat"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Fats are important for good health and proper functioning of the body. However, too much of it can negatively affect our weight and cardiovascular health. Different kinds of fats have different health effects, and some of these tips could help us keep the balance right:\n
+We should limit the consumption of total and saturated fats (often coming from foods of animal origin), and completely avoid trans fats; reading the labels helps to identify the sources.
+    Eating fish 2-3 times a week, with at least one serving of oily fish, will contribute to our right intake of unsaturated fats.
+    When cooking, we should boil, steam or bake, rather than frying, remove the fatty part of meat, use vegetable oils."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="4. Enjoy plenty of fruits and vegetables"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Fruits and vegetables are among the most important foods for giving us enough vitamins, minerals and fibre. We should try to eat at least 5 servings a day. For example, a glass of fresh fruit juice at breakfast, perhaps an apple and a piece of watermelon as snacks, and a good portion of different vegetables at each meal."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="5. Reduce salt and sugar intake"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="A high salt intake can result in high blood pressure, and increase the risk of cardiovascular disease. There are different ways to reduce salt in the diet:\n
+When shopping, we could choose products with lower sodium content.\n
+When cooking, salt can be substituted with spices, increasing the variety of flavours and tastes.\n
+When eating, it helps not to have salt at the table, or at least not to add salt before tasting.\n
+Sugar provides sweetness and an attractive taste, but sugary foods and drinks are rich in energy, and are best enjoyed in moderation, as an occasional treat. We could use fruits instead, even to sweeten our foods and drinks."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="6. Eat regularly, control the portion size"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Eating a variety of foods, regularly, and in the right amounts is the best formula for a healthy diet. Skipping meals, especially breakfast, can lead to out-of-control hunger, often resulting in helpless overeating. Snacking between meals can help control hunger, but snacking should not replace proper meals. For snacks, we could choose yoghurt, a handful of fresh or dried fruits or vegetables (like carrot sticks), unsalted nuts, or perhaps some bread with cheese. Paying attention to portion size will help us not to consume too much calories, and will allow us to eat all the foods we enjoy, without having to eliminate any.\n
+Cooking the right amount makes it easier to not overeat.\n
+Some reasonable serving sizes are: 100 g of meat; one medium piece of fruit; half a cup of raw pasta.\n
+Using smaller plates helps with smaller servings.\n
+Packaged foods, with calorie values on the pack, could aid portion control.\n
+If eating out, we could share a portion with a friend."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="7. Drink plenty of fluids"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Adults need to drink at least 1.5 litres of fluid a day! Or more if it's very hot or they are physically active. Water is the best source, of course, and we can use tap or mineral water, sparkling or non-sparkling, plain or flavoured. Fruit juices, tea, soft drinks, milk and other drinks, can all be okay - from time to time."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="8. Maintain a healthy body weight"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="The right weight for each us depends on factors like our gender, height, age, and genes. Being affected by obesity and overweight increases the risks of a wide range of diseases, including diabetes, heart diseases, and cancer.\nExcess body fat comes from eating more than we need. The extra calories can come from any caloric nutrient - protein, fat, carbohydrate, or alcohol, but fat is the most concentrated source of energy. Physical activity helps us spend the energy, and makes us feel good. The message is reasonably simple: if we are gaining weight, we need to eat less and be more active!"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="9. Get on the move, make it a habit!"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Physical activity is important for people of all weight ranges and health conditions. It helps us burn off the extra calories, it is good for the heart and circulatory system, it maintains or increases our muscle mass, it helps us focus, and improves overall health well-being. We don't have to be top athletes to get on the move! 150 minutes per week of moderate physical activity is advised, and it can easily become part of our daily routine. We all could:\n
+ Use the stairs instead of the elevator, go for a walk during lunch breaks (and stretch in our offices in between) make time for a family weekend activity"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="10. Start now! And keep changing gradually."
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Gradual changes in our lifestyle are easier to maintain than major changes introduced all at once. For three days, we could write down the foods and drinks we consume throughout the day, and make a note of the amount of movement we made. It won’t be difficult to spot where we could improve:\n
+Skipping breakfast? A small bowl of muesli, a piece of bread or fruit, could help slowly introduce it into our routine\n
+Too few fruits and vegetables? To start with, we can introduce one extra piece a day.\n
+Favourite foods high in fat? Eliminating them abruptly could fire back, and make us return to the old habits. We can choose low fat options instead, eat them less frequently, and in smaller portions.\n
+Too little activity? Using the stairs daily could be a great first move."
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/compatibity_chart" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blood_groups" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

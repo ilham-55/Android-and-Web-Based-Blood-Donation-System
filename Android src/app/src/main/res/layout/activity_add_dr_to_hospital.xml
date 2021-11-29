@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_four">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Doctor Name"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_dr_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_border"
+                        android:backgroundTint="#fff"
+                        android:ems="10"
+                        android:hint="Doctor Name"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Doctor Details"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_dr_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_border"
+                        android:backgroundTint="#fff"
+                        android:ems="10"
+                        android:hint="Doctor Details"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Contact Number"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_border"
+                        android:backgroundTint="#fff"
+                        android:ems="10"
+                        android:hint="Contact "
+                        android:inputType="phone"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Chamber"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_chamber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_border"
+                        android:backgroundTint="#fff"
+                        android:ems="10"
+                        android:hint="Chamber"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Address"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_border"
+                        android:backgroundTint="#fff"
+                        android:ems="10"
+                        android:hint="Address"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Division"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_division"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_border"
+                        android:backgroundTint="#fff"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:hint="Division"
+                        android:inputType="textPersonName"
+                        android:padding="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Doctor Speciality"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/et_doctor"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:focusable="false"
+                        android:hint="Select Speciality"
+                        android:inputType="text"
+                        android:textColor="#FF1200"
+                        android:textColorHint="#FF2819"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toBottomOf="@+id/sinup_txt_area_signup"
+                        app:ms_dropdown_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:padding="5dp"
+                    android:text="Select Hospital"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_border"
+                    android:orientation="vertical">
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/et_hospital"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:focusable="false"
+                        android:hint="Select Hospital"
+                        android:inputType="text"
+                        android:textColor="#FF1200"
+                        android:textColorHint="#FF2819"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+
+                        app:layout_constraintTop_toBottomOf="@+id/sinup_txt_area_signup"
+                        app:ms_dropdown_height="wrap_content" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/txt_submit"
+                    android:layout_width="200dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="SUBMIT"
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</ScrollView>
