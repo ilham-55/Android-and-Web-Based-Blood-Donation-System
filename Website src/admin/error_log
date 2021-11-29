@@ -1,0 +1,4 @@
+[17-Feb-2021 13:17:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/myprojec/public_html/myproject24.cf/blood/admin/hospital.php on line 296
+[17-Feb-2021 13:20:27 Asia/Dhaka] PHP Parse error:  syntax error, unexpected 'category' (T_STRING), expecting ',' or ';' in /home/myprojec/public_html/myproject24.cf/blood/admin/hospital.php on line 299
+[18-Feb-2021 23:55:03 Asia/Dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/myprojec/public_html/myproject24.cf/blood/admin/doctors.php on line 374
+[18-Feb-2021 23:55:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/myprojec/public_html/myproject24.cf/blood/admin/doctors.php on line 374
